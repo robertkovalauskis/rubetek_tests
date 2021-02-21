@@ -1,4 +1,4 @@
-package tests;
+package rubetek.tests;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;

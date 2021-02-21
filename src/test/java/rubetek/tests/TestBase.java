@@ -1,4 +1,4 @@
-package tests;
+package rubetek.tests;
 
 import com.codeborne.selenide.Configuration;
 import io.qameta.allure.Step;
@@ -9,7 +9,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import static com.codeborne.selenide.WebDriverRunner.closeWebDriver;
 import static com.codeborne.selenide.logevents.SelenideLogger.addListener;
-import static helpers.AttachmentsHelper.*;
+import static rubetek.helpers.AttachmentsHelper.*;
 
 public class TestBase {
     @BeforeAll
