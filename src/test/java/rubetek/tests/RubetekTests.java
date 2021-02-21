@@ -1,5 +1,8 @@
 package rubetek.tests;
 
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
+import io.qameta.allure.junit4.Tag;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -9,10 +12,12 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-
+@Tag("web")
+@Feature("Rubertek Tests")
 public class RubetekTests extends TestBase {
 
     @Test
+    @Story("Main page successful opening")
     @DisplayName("Корректное открытие главной страницы")
     void mainPageTest() {
         open("https://rubetek.com/");
@@ -21,6 +26,7 @@ public class RubetekTests extends TestBase {
 
     @Test
     @Disabled("Нужны учетные данные")
+    @Story("Successful authorization")
     @DisplayName("Успешная авторизация")
     void successfulLoginTest() {
         open("https://rubetek.com/");
@@ -29,6 +35,7 @@ public class RubetekTests extends TestBase {
     }
 
     @Test
+    @Story("Unsuccessful authorization")
     @DisplayName("Неуспешная авторизация")
     void unSuccessfulLoginTest() {
         open("https://rubetek.com/");
@@ -41,6 +48,7 @@ public class RubetekTests extends TestBase {
     }
 
     @Test
+    @Story("Navigation on the webpage")
     @DisplayName("Навигация по сайту")
     void webNavigationTest() {
         open("https://rubetek.com/");
