@@ -1,4 +1,4 @@
-package app.pure.pages.external;
+package app.rubetek.pages.external;
 
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;

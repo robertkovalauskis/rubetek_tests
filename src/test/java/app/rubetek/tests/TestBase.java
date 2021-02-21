@@ -1,15 +1,15 @@
-package app.pure.tests;
+package app.rubetek.tests;
 
-import app.pure.pages.external.GoogleAuthPage;
+import app.rubetek.pages.external.GoogleAuthPage;
 import io.qameta.allure.junit5.AllureJunit5;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.extension.ExtendWith;
 
-import static app.pure.config.ConfigHelper.isVideoOn;
-import static app.pure.helpers.AttachmentsHelper.*;
-import static app.pure.helpers.DriverHelper.*;
+import static app.rubetek.config.ConfigHelper.isVideoOn;
+import static app.rubetek.helpers.AttachmentsHelper.*;
+import static app.rubetek.helpers.DriverHelper.*;
 import static com.codeborne.selenide.WebDriverRunner.closeWebDriver;
 
 

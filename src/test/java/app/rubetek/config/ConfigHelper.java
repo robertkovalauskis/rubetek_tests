@@ -1,4 +1,4 @@
-package app.pure.config;
+package app.rubetek.config;
 
 import org.aeonbits.owner.ConfigFactory;
 

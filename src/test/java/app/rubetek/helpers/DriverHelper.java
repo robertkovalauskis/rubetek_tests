@@ -1,6 +1,6 @@
-package app.pure.helpers;
+package app.rubetek.helpers;
 
-import app.pure.drivers.CustomWebDriver;
+import app.rubetek.drivers.CustomWebDriver;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import io.appium.java_client.MobileBy;
@@ -8,7 +8,7 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import static app.pure.config.ConfigHelper.*;
+import static app.rubetek.config.ConfigHelper.*;
 import static com.codeborne.selenide.Selectors.by;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static com.codeborne.selenide.logevents.SelenideLogger.addListener;
