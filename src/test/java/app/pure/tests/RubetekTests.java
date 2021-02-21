@@ -1,4 +1,4 @@
-package rubetek.tests;
+package app.pure.tests;
 
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;

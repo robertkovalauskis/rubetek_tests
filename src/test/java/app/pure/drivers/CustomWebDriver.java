@@ -1,4 +1,4 @@
-package rubetek.drivers;
+package app.pure.drivers;
 
 import com.codeborne.selenide.WebDriverProvider;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Level;
 
-import static rubetek.config.ConfigHelper.*;
+import static app.pure.config.ConfigHelper.*;
 
 
 public class CustomWebDriver implements WebDriverProvider {

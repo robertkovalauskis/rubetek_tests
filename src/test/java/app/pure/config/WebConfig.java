@@ -1,10 +1,11 @@
-package rubetek.config;
+package app.pure.config;
 
 import org.aeonbits.owner.Config;
 
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
         "system:properties",
+//        "classpath:config/local.properties",
         "classpath:config/web.properties"
 })
 public interface WebConfig extends Config {
