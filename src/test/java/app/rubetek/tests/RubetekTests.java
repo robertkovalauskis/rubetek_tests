@@ -40,8 +40,8 @@ public class RubetekTests extends TestBase {
     void unSuccessfulLoginTest() {
         open("https://rubetek.com/");
         $(".right-menu__item--lk").click();
-        $(By.xpath("//input[@name='login']")).sendKeys("123123"); // TODO Change locators
-        $(By.xpath("//input[@name='password']")).sendKeys("123123"); // TODO Change locators
+        $(By.xpath("//input[@name='login']")).sendKeys("123123"); // TODO Change locator
+        $(By.xpath("//input[@name='password']")).sendKeys("123123");
         $(".pop-auth__btn").click();
 
         $("body").shouldHave(text("Неверный логин или пароль"));
