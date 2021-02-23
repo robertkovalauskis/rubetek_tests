@@ -21,7 +21,7 @@ public class RubetekTests extends TestBase {
     @DisplayName("Корректное открытие главной страницы")
     void mainPageTest() {
         open("https://rubetek.com/");
-        $(By.xpath("//h1")).shouldHave(text("Интернет-магазин Rubetek"));
+        $("h1").shouldHave(text("Интернет-магазин Rubetek"));
     }
 
     @Test
@@ -30,7 +30,7 @@ public class RubetekTests extends TestBase {
     @DisplayName("Успешная авторизация")
     void successfulLoginTest() {
         open("https://rubetek.com/");
-        $(By.xpath(".right-menu__item--lk")).click();
+        $(".right-menu__item--lk").click();
         // todo
     }
 
@@ -40,8 +40,8 @@ public class RubetekTests extends TestBase {
     void unSuccessfulLoginTest() {
         open("https://rubetek.com/");
         $(".right-menu__item--lk").click();
-        $(By.xpath("//input[@name='login']")).sendKeys("123123");
-        $(By.xpath("//input[@name='password']")).sendKeys("123123");
+        $(By.xpath("//input[@name='login']")).sendKeys("123123"); // TODO Change locators
+        $(By.xpath("//input[@name='password']")).sendKeys("123123"); // TODO Change locators
         $(".pop-auth__btn").click();
 
         $("body").shouldHave(text("Неверный логин или пароль"));
