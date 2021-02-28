@@ -1,29 +1,21 @@
-Github Repo
-https://github.com/svasenkov/pure_tests
+Github Repository
+https://github.com/robertkovalauskis/rubetek_tests
 
 Jenkins job
-https://jenkins.autotests.cloud/job/svasenkov_pure_tests/
+https://jenkins.autotests.cloud/job/c03-g02-robert_kovalauskis-rubetek_diplom_tests/
 
 Selenoid
-![selenoid screenshot](src/test/resources/images/selenoid.png)
-![selenoid screenshot](src/test/resources/images/selenoid.gif)
+![selenoid screenshot](src/test/resources/images/.png)
 
 Allure Report
-![allure screenshot](src/test/resources/images/allure_1.png)
-![allure screenshot](src/test/resources/images/allure_2.png)
-![allure screenshot](src/test/resources/images/allure_3.png)
+![allure screenshot](src/test/resources/images/AllureReport.png)
 
 Allure TestOps
-![allure screenshot](src/test/resources/images/allure_testops_0.png)
-![allure screenshot](src/test/resources/images/allure_testops.png)
-![allure screenshot](src/test/resources/images/allure_testops_testplan.png)
-![allure screenshot](src/test/resources/images/allure_testops_testplan_executors.png)
+![allure screenshot](src/test/resources/images/TestOps.png)
 
 Jira
-![allure screenshot](src/test/resources/images/jira_1.png)
-![allure screenshot](src/test/resources/images/jira_2.png)
-![allure screenshot](src/test/resources/images/error.png)
+![allure screenshot](src/test/resources/images/Jira.png)
 
 Telegram notification
 
-![allure screenshot](src/test/resources/images/telegram.png)
+![allure screenshot](src/test/resources/images/Telegram.png)
