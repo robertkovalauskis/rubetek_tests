@@ -18,16 +18,16 @@ public class RubetekTests extends TestBase {
 
     @Test
     @Story("Main page successful opening")
-    @DisplayName("Корректное открытие главной страницы")
+    @DisplayName("Main page successful opening")
     void mainPageTest() {
         open("https://rubetek.com/");
         $("h1").shouldHave(text("Интернет-магазин Rubetek"));
     }
 
     @Test
-    @Disabled("Нужны учетные данные")
+    @Disabled("Credentials are required")
     @Story("Successful authorization")
-    @DisplayName("Успешная авторизация")
+    @DisplayName("Successful authorization")
     void successfulLoginTest() {
         open("https://rubetek.com/");
         $(".right-menu__item--lk").click();
@@ -36,7 +36,7 @@ public class RubetekTests extends TestBase {
 
     @Test
     @Story("Unsuccessful authorization")
-    @DisplayName("Неуспешная авторизация")
+    @DisplayName("Unsuccessful authorization")
     void unSuccessfulLoginTest() {
         open("https://rubetek.com/");
         $(".right-menu__item--lk").click();
@@ -49,7 +49,7 @@ public class RubetekTests extends TestBase {
 
     @Test
     @Story("Navigation on the webpage")
-    @DisplayName("Навигация по сайту")
+    @DisplayName("Navigation on the webpage")
     void webNavigationTest() {
         open("https://rubetek.com/");
         $(By.linkText("Управление")).click();
