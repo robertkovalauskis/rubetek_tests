@@ -11,7 +11,7 @@ Allure Report
 ![allure screenshot](src/test/resources/images/AllureReport.png)
 
 Allure TestOps
-![allure screenshot](src/test/resources/images/TestOps.png)
+![allure screenshot](src/test/resources/images/TestOps1.png)
 
 Jira
 ![allure screenshot](src/test/resources/images/Jira.png)
