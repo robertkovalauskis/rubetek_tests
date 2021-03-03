@@ -37,3 +37,5 @@ target/
 .vscode
 /gradlew
 /gradlew.bat
+
+web.properties
